@@ -1,0 +1,69 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+
+}
+
+.about,
+.mail,
+.number {
+    color: #757575;
+    cursor: pointer;
+}
+
+/* .adress {
+    color: white;
+} */
+
+
+.we {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+.page {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+
+.main_page {
+    font-family: 'Roboto';
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+
+.filter,
+.buy {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+
+
+.header_stroke {
+    color: #212121;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+}
+
+
+.logo {}
