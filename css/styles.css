@@ -4,6 +4,12 @@ body {
 
 }
 
+
+
+.link {
+    text-decoration: none;
+}
+
 .about,
 .mail,
 .number {
@@ -11,13 +17,16 @@ body {
     cursor: pointer;
 }
 
-/* .adress {
-    color: white;
-} */
+.footer_number,
+.footer_mail {
+    color: #757575;
+    cursor: pointer;
+}
+
+
 
 
 .we {
-    font-family: 'Roboto';
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -26,7 +35,6 @@ body {
 
 
 .page {
-    font-family: 'Roboto';
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
@@ -35,7 +43,6 @@ body {
 
 
 .main_page {
-    font-family: 'Roboto';
     font-size: 36px;
     line-height: 42px;
     text-align: center;
@@ -43,10 +50,51 @@ body {
 }
 
 
+.footer {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    background-color: #2F303A;
+    color: #757575;
+}
 
-.filter,
+
+.footer_adress {
+    color: white;
+}
+
+.footer_adress:hover {
+    color: #2196F3;
+}
+
+
+.footer_mail:hover {
+    color: #2196F3;
+}
+
+
+.footer_number:hover {
+    color: #2196F3;
+}
+
+
+
+
+.main_title {
+    color: white;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background-color: #2F303A;
+}
+
+
+.filter_link,
 .buy {
-    font-family: 'Roboto';
     font-size: 16px;
     line-height: 26px;
     text-align: center;
@@ -54,13 +102,72 @@ body {
     cursor: pointer;
 }
 
+.buy {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: #2196F3;
+}
 
+
+.filter_link:hover {
+    color: #2196F3;
+    background-color: #F5F4FA;
+}
+
+.header_stroke:hover {
+    color: #2196F3;
+}
+
+
+.mail:hover {
+    color: #2196F3;
+}
+
+.number:hover {
+    color: #2196F3;
+}
 
 .header_stroke {
     color: #212121;
-    font-family: 'Roboto';
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     cursor: pointer;
+}
+
+
+.logo_header_1 {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+
+.logo_footer_1 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+
+
+.logo_header {
+    color: #2196F3;
+}
+
+.logo_footer {
+    color: #2196F3;
 }
